@@ -1,0 +1,30 @@
+{
+  "name": "type-lock",
+  "version": "0.0.0",
+  "description": "Locks an objects properties to a specific type.",
+  "main": "index.js",
+  "scripts": {
+    "clienttest": "browserify test/* | tape-run -b firefox",
+    "test": "tape test/* && npm run clienttest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jcblw/type-lock"
+  },
+  "keywords": [
+    "DOM",
+    "element",
+    "creation"
+  ],
+  "author": "@jcblw",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jcblw/type-lock/issues"
+  },
+  "homepage": "https://github.com/jcblw/type-lock",
+  "devDependencies": {
+    "browserify": "^8.1.1",
+    "tape": "^3.5.0",
+    "tape-run": "^0.3.0"
+  }
+}
