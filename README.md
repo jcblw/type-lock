@@ -1,5 +1,7 @@
 # Type Lock
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/jcblw/type-lock.svg)](https://greenkeeper.io/)
+
 Locks an objects properties to a specific type
 
 [![Build Status](https://travis-ci.org/jcblw/type-lock.svg?branch=master)](https://travis-ci.org/jcblw/type-lock)
